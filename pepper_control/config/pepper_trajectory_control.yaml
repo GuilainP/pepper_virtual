@@ -42,15 +42,15 @@ pepper:
   #     - RHand
 
   # Effort Controllers ---------------------------------------
-  # WheelFL_controller:
-  #   type: effort_controllers/JointEffortController
-  #   joint: WheelFL
-  # WheelFR_controller:
-  #   type: effort_controllers/JointEffortController
-  #   joint: WheelFR
-  # WheelB_controller:
-  #   type: effort_controllers/JointEffortController
-  #   joint: WheelB
+  WheelFL_controller:
+    type: effort_controllers/JointEffortController
+    joint: WheelFL
+  WheelFR_controller:
+    type: effort_controllers/JointEffortController
+    joint: WheelFR
+  WheelB_controller:
+    type: effort_controllers/JointEffortController
+    joint: WheelB
 
 
 # gazebo_ros_control:
@@ -121,5 +121,3 @@ pepper:
       HipRoll: {p: 100000.0, i: 0.01, d: 10.0}
       HipPitch: {p: 100000.0, i: 0.01, d: 10.0}
       KneePitch: {p: 100000.0, i: 0.01, d: 10.0}
-
-

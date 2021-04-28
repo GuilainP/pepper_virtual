@@ -11,5 +11,9 @@
       /pepper/LeftArm_controller
       /pepper/Head_controller
       /pepper/Pelvis_controller
-      /pepper/joint_state_controller "/>
+      /pepper/joint_state_controller
+      /pepper/WheelFL_controller
+      /pepper/WheelFR_controller
+      /pepper/WheelB_controller
+       "/>
 </launch>
